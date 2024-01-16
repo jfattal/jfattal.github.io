@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jessica Fattal"
+title: #"Jessica Fattal"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
