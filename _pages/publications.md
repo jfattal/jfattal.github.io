@@ -14,12 +14,3 @@ author_profile: true
   * <b>Fattal J</b>, Brascamp J, Slate RE, Achtyes ED, Lehet M, & Thakkar KN (2022). Blunted pupil light reflex is associated with negative symptoms and working memory in individuals with schizophrenia,  <em>Schizophrenia Research 248</em>, 254-262. doi: 10.1016/j.schres.2022.09.019
   * <b>Fattal J</b>, Brascamp J, Slate RE, Lehet M,Achtyes ED, & Thakkar KN (2020). [Abstract] Abnormal pupil light reflex relates to negative symptom severity in schizophrenia, <em>Biological Psychiatry 87</em>(9), Supplement, S138. doi: 10.1016/j.biopsych.2020.02.368
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
